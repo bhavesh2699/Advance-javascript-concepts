@@ -1,3 +1,4 @@
+//simple funtion call
 let obj={
     name:"bhavesh",
     last:"solanki",
@@ -6,3 +7,11 @@ let obj={
     }
 }
 obj.fullName();
+
+//function call using call() function
+let obj2={
+    name:"salman",
+    last:"khan",
+}
+
+obj.fullName.call(obj2);
